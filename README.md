@@ -1,5 +1,20 @@
-# Copied from Electron Issue I'm creating
+```
+git clone https://github.com/countravioli/electron-native-image-resize-transparency-bug
+cd electron-native-image-resize-transparency-bug
+npm install
+npm start
+npm run start-works
+```
 
+*npm start* - will run the app normally, illustrating the bug. Two images are written in the directory at the same level as app.js (original.png and resized.png)
+
+*npm run start* -works - will run the app with disableHardwareAcceleration showing things work. The same to pngs are created.
+
+The app will quit when its done. If you are on mac the pngs will open in your default application associated with the file type. 
+
+
+
+# Copied from Electron Issue I'm creating
 
 * Electron version: 2.0.0beta3 & 1.8.3
 * Operating system: OSX & Windows 10 64bit
