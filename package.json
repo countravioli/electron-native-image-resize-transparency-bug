@@ -1,0 +1,15 @@
+{
+  "name": "electron-native-image-resize-transparency-bug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "start-works": "electron . --disableGPU"
+  },
+  "author": "ryan navaroli",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.8.3"
+  }
+}
